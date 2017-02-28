@@ -1,0 +1,74 @@
+html,
+body {
+    text-align: center;
+}
+
+html {
+    background-image: url(bigBang.jpg);
+    background-size: cover;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+.header {
+    display: block;
+}
+
+img {
+    margin: 1% 40% 1% 30%;
+    float: left;
+    display: inline;
+}
+
+button {
+    background-color: rgb(33, 33, 33);
+    padding: 20px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 140px;
+    right: 400px;
+    border-radius: 25px;
+    border: teal solid 3px;
+    font-size: 30px;
+    color: white;
+}
+
+#names {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    margin: 10% 20%;
+    width: 100%;
+    display: inline;
+}
+
+#board {
+    height: 333px;
+    width: 333px;
+    margin: 0 auto;
+}
+
+.row {
+    height: 33%;
+    width: 333px;
+    background-color: aqua;
+    display: flex;
+}
+
+.row div {
+    border: 2px solid red;
+    width: 111px;
+    height: 111px;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.row div:hover {
+    background-color: TEAL;
+}
